@@ -1,0 +1,9 @@
+python-socketio[asyncio]>=5.0.0
+discord.py>=2.0.0
+# python-discord>=2.0.0
+fastapi>=0.0.0
+uvicorn>=0.0.0
+python-dotenv>=1.0.0
+openai>=1.0.0
+aiohttp>=3.0.0
+dashscope

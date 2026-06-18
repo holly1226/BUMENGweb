@@ -1,0 +1,78 @@
+# ===================== Secret / API Keys =====================
+.env
+.env.local
+.env.development
+.env.production
+
+# ===================== Node.js =====================
+node_modules/
+node_modules
+dist/
+dist-ssr/
+dist
+dist-ssr
+*.local
+
+# ===================== Python =====================
+__pycache__/
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.py[co]
+*.$py.class
+
+# ===================== Virtual Environments =====================
+venv/
+env/
+.venv/
+
+# ===================== Temp & Test =====================
+backend/Temp/*
+backend/Test/*
+test-results/
+test_screenshots/
+.playwright-cli/
+backend/.playwright-cli/
+
+# ===================== IDE & Editor =====================
+.vscode/
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+*.swn
+*.sublime-project
+*.sublime-workspace
+
+# ===================== Logs =====================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ===================== AI Models & Cache =====================
+backend/asset/
+backend/asset/*.safetensors
+backend/storage/embeddings_cache/
+img/cache/
+backend/ChatTTS/
+
+# ===================== Audio =====================
+*.mp3
+
+# ===================== Project Specific =====================
+.codebuddy/
+s1.yaml
+playwright-cli.json
+netlify.toml

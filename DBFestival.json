@@ -1,0 +1,1424 @@
+{
+  "projectId": "a35428bfd5e5",
+  "title": "端午到，龙舟跑",
+  "worldSetting": [
+    {
+      "id": "be8cbe13-f4ab-4c25-87ee-d62c493edcda",
+      "title": "新模块",
+      "content": ""
+    }
+  ],
+  "characterParams": [
+    {
+      "name": "龙舟队鼓手",
+      "paramType": "number",
+      "categories": [],
+      "minValue": 0,
+      "maxValue": 10
+    },
+    {
+      "name": " 长命缕",
+      "paramType": "number",
+      "categories": [
+        "佩戴",
+        "未佩戴"
+      ],
+      "minValue": 0,
+      "maxValue": 1
+    },
+    {
+      "name": "洞察值",
+      "paramType": "number",
+      "categories": [],
+      "minValue": 0,
+      "maxValue": 10
+    },
+    {
+      "name": "因果值",
+      "paramType": "number",
+      "categories": [],
+      "minValue": 0,
+      "maxValue": 10
+    },
+    {
+      "name": "热情值",
+      "paramType": "number",
+      "categories": [],
+      "minValue": 0,
+      "maxValue": 10
+    }
+  ],
+  "characters": {
+    "nodes": [
+      {
+        "id": "3111e41c-960d-4c7d-bdb8-016e43a4bb45",
+        "type": "characterNode",
+        "label": "林墨",
+        "position": {
+          "x": 300,
+          "y": 120
+        },
+        "data": {
+          "name": "林墨",
+          "description": "因一根长命缕和一声钟响，意外穿越回1996年父亲22岁的时候。他本想凭借现代商业思维对父亲的人生进行“降维打击”和“修复补丁”，却震惊地发现：父亲未来那些让他抓狂的古怪、偏执和神经质（空出主位、念叨奇怪口诀、做黑暗料理），全都是被自作聪明的自己一手“调教”出来的。在宿命的闭环面前，他历经崩溃与顿悟，最终在震天的龙舟战鼓中与过去的父亲并肩作战。他不再执着于改变结果，而是学会了理解与接纳，并在时空的交错中找回了属于自己的生命力。",
+          "aliases": [],
+          "gender": "男",
+          "appearance": "现代职场青年打扮，随身携带最新款智能手机等设备。因为常年熬夜写代码，可能略带疲态，但左手腕上常年戴着一根打着死结的五彩长命缕。在接触龙舟击鼓后，展现出极具爆发力和原始生命力的身体状态（大汗淋漓、肌肉紧绷）。",
+          "personality": "表层设定： 极度追求逻辑闭环；毒舌、爱吐槽，表面上对父亲那些古怪、偏执的“遗留系统”行为充满嫌弃和无奈。\n深层底色： 头脑极其聪明敏锐，适应能力极强；其实内心非常柔软重感情；骨子里藏着一团滚烫的火，一旦遇到纯粹的热爱就会彻底燃烧自我。",
+          "attributes": {},
+          "locationType": "",
+          "terrain": "",
+          "sceneDescription": "",
+          "conditions": [],
+          "customFields": {},
+          "age": 28,
+          "motivation": "前期动机： “老爹拯救计划”——用现代人的上帝视角，给充满人生bug的父亲打一个最完美的补丁，将他未来会遭遇的失败和背叛全掐死在摇篮里。\n后期转变： 发现自己正是“写下bug的原始程序员”后，动机转变为——放弃修正，顺应闭环，给父亲一个最酣畅淋漓的青春，并活出自己纯粹的热爱。",
+          "initialLocation": "d76f6f64-0594-4a93-b8c3-7435ee28605b",
+          "worldParams": {
+            "龙舟队鼓手": 10,
+            "热情值": 0
+          }
+        }
+      },
+      {
+        "id": "aa87c12d-b562-4cd5-9c65-255867e3c83b",
+        "type": "characterNode",
+        "label": "林父",
+        "position": {
+          "x": 300,
+          "y": 240
+        },
+        "data": {
+          "name": "林父",
+          "description": "现代时间线为“老林”，1996年时间线为“小林”，现代约60岁 / 1996年22岁。\n老林是一个让儿子极度头疼的古怪老头，满身的“遗留系统bug”。但在1996年的时间线里，22岁的“小林”是一个濒临破产的粽子铺年轻老板。他不知道突然出现并帮他化解危机的“神人”正是来自未来的儿子。在短短一个月里，小林全盘接收了林墨随口瞎编的现代词汇、黑暗料理配方和奇怪的动作，并将林墨视为生命里的“幸运神”。他用极其笨拙、偏执的方式，将这段跨越时空的记忆和承诺刻在了骨子里，死死守了三十年，最终成就了一个完美的宿命闭环。",
+          "aliases": [],
+          "gender": "男",
+          "appearance": "现代老林： 头发花白，背有些佝偻，手上布满了老年斑。左手腕上死死系着一根褪色包浆、快要断裂的五彩长命缕。\n1996小林： 年轻气盛的小伙子，长着一张“开了十级美颜加瘦脸特效的老林”的脸。常常光着膀子，脖子上搭着一条湿毛巾，充满粗粝的生命力。",
+          "personality": "现代老林： 固执、偏执、神经质，像一个“拒绝安装任何更新包的古怪老头”。有着严重的强迫症，执着于别人无法理解的仪式感。\n1996小林： 年轻冒傻气，容易被忽悠，但也极其真诚、讲义气、充满热血。一旦认准了某人（比如林墨），就会给予百分之百的信任。",
+          "attributes": {},
+          "locationType": "",
+          "terrain": "",
+          "sceneDescription": "",
+          "conditions": [],
+          "customFields": {},
+          "age": 60,
+          "motivation": "表层动机（1996年）： 挽救即将破产的粽子铺，带领一盘散沙的龙舟队赢得端午节锦标赛。\n深层动机（跨越三十年的执念）： 遵守当年对“幸运神（林墨）”的承诺。他后半生所有的古怪行为（做生化武器般的粽子、念叨奇怪的口诀、永远空出主位），都是为了在漫长的岁月里，保护那个当年拯救过他、并赋予他力量的“神明”。",
+          "initialLocation": "d76f6f64-0594-4a93-b8c3-7435ee28605b",
+          "worldParams": {
+            "龙舟队鼓手": 0
+          }
+        }
+      },
+      {
+        "id": "40ea342d-8575-4759-8e05-a12b1daa2449",
+        "type": "characterNode",
+        "label": "报刊亭老板",
+        "position": {
+          "x": 320,
+          "y": 360
+        },
+        "data": {
+          "name": "报刊亭老板",
+          "description": "",
+          "aliases": [],
+          "gender": "",
+          "appearance": "",
+          "personality": "",
+          "attributes": {},
+          "locationType": "",
+          "terrain": "",
+          "sceneDescription": "",
+          "conditions": [],
+          "customFields": {}
+        }
+      },
+      {
+        "id": "5d4cffb2-60cd-4f9b-899f-964391e30608",
+        "type": "characterNode",
+        "label": "龙舟队",
+        "position": {
+          "x": 180,
+          "y": 300
+        },
+        "data": {
+          "name": "龙舟队",
+          "description": "",
+          "aliases": [],
+          "gender": "",
+          "appearance": "",
+          "personality": "",
+          "attributes": {},
+          "locationType": "",
+          "terrain": "",
+          "sceneDescription": "",
+          "conditions": [],
+          "customFields": {}
+        }
+      }
+    ],
+    "edges": []
+  },
+  "locations": {
+    "nodes": [
+      {
+        "id": "d76f6f64-0594-4a93-b8c3-7435ee28605b",
+        "type": "locationNode",
+        "label": "老林家客厅/厨房",
+        "position": {
+          "x": 490.4404323747317,
+          "y": 371.5977303002052
+        },
+        "data": {
+          "name": "新地点",
+          "description": "功能：展示父子隔阂与老林的“古怪”。 障碍：老林拒绝现代礼物，坚持奇怪的仪式。 视觉情绪：拥挤、昏黄、充满油烟味与违和感（智能设备与老旧锅碗瓢盆的对立）。",
+          "aliases": [],
+          "gender": "",
+          "appearance": "",
+          "personality": "",
+          "attributes": {},
+          "locationType": "建筑",
+          "terrain": "现代高层公寓",
+          "sceneDescription": "",
+          "conditions": [],
+          "customFields": {}
+        }
+      },
+      {
+        "id": "f2a22128-fa57-4f56-bd6a-eac724fada7b",
+        "type": "locationNode",
+        "label": "老街十字路口/报刊亭 (1996)",
+        "position": {
+          "x": 480,
+          "y": 500
+        },
+        "data": {
+          "name": "新地点",
+          "description": "**功能**：确立穿越规则，粉碎现代逻辑。 **障碍**：手机没网，现代货币变“冥币”，认知崩塌。 **视觉情绪**：高饱和度的复古色调，刺眼的阳光，充满90年代粗粝的生机。",
+          "aliases": [],
+          "gender": "",
+          "appearance": "",
+          "personality": "",
+          "attributes": {},
+          "locationType": "城市",
+          "terrain": "老街、小卖部、市区白菜地",
+          "sceneDescription": "",
+          "conditions": [],
+          "customFields": {}
+        }
+      },
+      {
+        "id": "a1e0d34e-0327-45a9-a2fc-2a22628ac5fe",
+        "type": "locationNode",
+        "label": "沿江码头/龙舟 (1996)",
+        "position": {
+          "x": 500,
+          "y": 720
+        },
+        "data": {
+          "name": "新地点",
+          "description": "功能：觉醒热爱与释放高潮。 障碍：散漫的队伍、体能极限。 视觉情绪：水花四溅，肌肉贲张，逆光下的硬木大鼓，极具压迫感与生命力的运动镜头。",
+          "aliases": [],
+          "gender": "",
+          "appearance": "",
+          "personality": "",
+          "attributes": {},
+          "locationType": "城市",
+          "terrain": "江边、龙舟训练场、决赛场",
+          "sceneDescription": "",
+          "conditions": [],
+          "customFields": {}
+        }
+      },
+      {
+        "id": "d93dc86e-1461-417d-85fa-9bb56b25a52c",
+        "type": "locationNode",
+        "label": "小林粽子铺/院子 (1996)",
+        "position": {
+          "x": 480,
+          "y": 620
+        },
+        "data": {
+          "name": "新地点",
+          "description": "功能：主战场。林墨施展才华、揭开真相的地点。 冲突：抓内鬼、改造作坊、与未来产生宿命般的联结（口头禅、黑暗料理的诞生）。 视觉情绪：从杂乱无章到井井有条，热气腾腾的烟火气，墙壁上硕大的“1996”日历。",
+          "aliases": [],
+          "gender": "",
+          "appearance": "",
+          "personality": "",
+          "attributes": {},
+          "locationType": "城市",
+          "terrain": "粽子铺、作坊、老会计家",
+          "sceneDescription": "",
+          "conditions": [],
+          "customFields": {}
+        }
+      }
+    ],
+    "edges": []
+  },
+  "items": {
+    "nodes": [
+      {
+        "id": "dac15eb8-9a24-4b9b-9373-3c021ea2d7a9",
+        "type": "itemNode",
+        "label": "长命缕",
+        "position": {
+          "x": 330.25339142583607,
+          "y": 129.92817508786646
+        },
+        "data": {
+          "name": "新物品",
+          "description": "",
+          "aliases": [],
+          "gender": "",
+          "appearance": "五彩丝线",
+          "personality": "",
+          "attributes": {},
+          "locationType": "",
+          "terrain": "",
+          "sceneDescription": "",
+          "conditions": [
+            "现代老林家：老林强行系在林墨手上（情感束缚与穿越触发器）。",
+            "1996粽子铺：林墨发现自己手上的崭新丝线（确认穿越的时间锚点）。",
+            "1996/现代结尾：林墨将其系在小林手上打死结；现代林墨为老林掖好磨损的线头（宿命闭环仪式）。"
+          ],
+          "customFields": {},
+          "function": "情感束缚与穿越触发器",
+          "unique": true,
+          "initialLocation": "3111e41c-960d-4c7d-bdb8-016e43a4bb45"
+        }
+      },
+      {
+        "id": "4d5b1bf6-e509-4d58-9d8f-165e4dc5fb57",
+        "type": "itemNode",
+        "label": "猎奇粽子 ",
+        "position": {
+          "x": 340,
+          "y": 240
+        },
+        "data": {
+          "name": "新物品",
+          "description": "",
+          "aliases": [],
+          "gender": "",
+          "appearance": "折耳根陈皮腊肉",
+          "personality": "",
+          "attributes": {},
+          "locationType": "",
+          "terrain": "",
+          "sceneDescription": "",
+          "conditions": [
+            "现代老林家：老林在锅里熬煮，散发“生化武器”味道（制造嫌弃与矛盾）。",
+            "1996粽子铺：林墨为了恶心竞争对手，随手往锅里乱扔这三样食材（惊悚揭示：主角是始作俑者）。",
+            "现代老林家：味道依旧，但林墨不再捂鼻子，而是平静接受（和解的证明）。"
+          ],
+          "customFields": {},
+          "function": "象征宿命闭环",
+          "initialLocation": "d76f6f64-0594-4a93-b8c3-7435ee28605b"
+        }
+      },
+      {
+        "id": "4206f798-2ca5-48f5-a028-464c3e7256a9",
+        "type": "itemNode",
+        "label": "记账本/便签",
+        "position": {
+          "x": 320,
+          "y": 340
+        },
+        "data": {
+          "name": "新物品",
+          "description": "",
+          "aliases": [],
+          "gender": "",
+          "appearance": "",
+          "personality": "",
+          "attributes": {},
+          "locationType": "",
+          "terrain": "",
+          "sceneDescription": "",
+          "conditions": [
+            "1996粽子铺：林墨指出账目损耗漏洞",
+            "1996粽子铺：林墨随手写下备忘，小林在旁边画了个极丑的笑脸",
+            "闪回现代冰箱：同样的丑笑脸贴纸特写"
+          ],
+          "customFields": {},
+          "function": "替代台词揭示时空闭环"
+        }
+      },
+      {
+        "id": "45795f9b-6a35-4029-91ec-dc3e66523724",
+        "type": "itemNode",
+        "label": "硬木鼓槌",
+        "position": {
+          "x": 340,
+          "y": 440
+        },
+        "data": {
+          "name": "新物品",
+          "description": "",
+          "aliases": [],
+          "gender": "",
+          "appearance": "",
+          "personality": "",
+          "attributes": {},
+          "locationType": "",
+          "terrain": "",
+          "sceneDescription": "",
+          "conditions": [
+            "1996龙舟：林墨随手捡起两根劈柴的木棍敲击",
+            "1996粽子铺：林墨削切木棍，按人体工程学改良握把",
+            "现代街头：林墨两手空空，凭空做了一个用力握紧鼓槌并敲击的动作"
+          ],
+          "customFields": {},
+          "function": "唤醒原始热爱的本能；将现代思维与传统结合"
+        }
+      },
+      {
+        "id": "ddc6af0f-3345-4d4c-9602-09c83fd7a501",
+        "type": "itemNode",
+        "label": "百元大钞",
+        "position": {
+          "x": 600,
+          "y": 260
+        },
+        "data": {
+          "name": "新物品",
+          "description": "",
+          "aliases": [],
+          "gender": "",
+          "appearance": "",
+          "personality": "",
+          "attributes": {},
+          "locationType": "",
+          "terrain": "",
+          "sceneDescription": "",
+          "conditions": [],
+          "customFields": {},
+          "initialLocation": "3111e41c-960d-4c7d-bdb8-016e43a4bb45"
+        }
+      },
+      {
+        "id": "e7c8e63d-fef9-4013-9018-38cada5474c1",
+        "type": "itemNode",
+        "label": "旧账本上的丑笑脸",
+        "position": {
+          "x": 580,
+          "y": 340
+        },
+        "data": {
+          "name": "新物品",
+          "description": "",
+          "aliases": [],
+          "gender": "",
+          "appearance": "",
+          "personality": "",
+          "attributes": {},
+          "locationType": "",
+          "terrain": "",
+          "sceneDescription": "",
+          "conditions": [],
+          "customFields": {}
+        }
+      }
+    ],
+    "edges": []
+  },
+  "plot": {
+    "initialCheckpoint": "9d3867a5-c4ec-4791-ac30-512cf9792d37",
+    "endCheckpoints": [
+      "a5453a27-f9c8-4b0c-82d4-973d0e373575",
+      "ec56945f-25f1-43d1-83ef-d92a7582831e",
+      "693763c5-6497-468c-9aab-e62293302571"
+    ],
+    "graph": {
+      "nodes": [
+        {
+          "id": "9d3867a5-c4ec-4791-ac30-512cf9792d37",
+          "type": "checkpointNode",
+          "label": "节点1｜烦人的端午",
+          "position": {
+            "x": 259.39424881922787,
+            "y": 140.96813844318032
+          },
+          "data": {
+            "name": "新检查点",
+            "description": "此时发生的穿越是注定的闭环起点，长命缕是触发时空跃迁的绝对锚点。老林的强迫症行为全是在遵守三十年前对“幸运神（主角本人）”的承诺。",
+            "aliases": [],
+            "gender": "",
+            "appearance": "",
+            "personality": "",
+            "attributes": {},
+            "locationType": "",
+            "terrain": "",
+            "sceneDescription": "今天是父亲节恰逢端午，老林在厨房熬煮气味刺鼻的“折耳根陈皮腊肉粽”，并在主位留了空碗筷给“幸运神”。你上前收拾时，老林突然抓住你的手，用一根褪色的五彩长命缕在你左腕打了个死结。随后钟声响起，世界瞬间静音。",
+            "conditions": [],
+            "customFields": {},
+            "triggerConditions": [
+              "character:3111e41c-960d-4c7d-bdb8-016e43a4bb45",
+              "item:dac15eb8-9a24-4b9b-9373-3c021ea2d7a9"
+            ],
+            "boundChecks": [],
+            "potentialActions": {
+              "这粽子过期熏得我脑仁疼，推门上街洗把脸去。": ""
+            }
+          }
+        },
+        {
+          "id": "ffc0db9c-d487-487c-9164-d1b92a40e092",
+          "type": "checkpointNode",
+          "label": "节点2｜怎么哪儿哪儿不对",
+          "position": {
+            "x": 260,
+            "y": 280
+          },
+          "data": {
+            "name": "新检查点",
+            "description": "现代社会的物理规则和逻辑在这里完全失效。",
+            "aliases": [],
+            "gender": "",
+            "appearance": "",
+            "personality": "",
+            "attributes": {},
+            "locationType": "",
+            "terrain": "",
+            "sceneDescription": "林墨推门上街，发现手机完全没有信号。街景变成了90年代的模样，报刊亭老板告诉他现在是1996年。林墨试图用一张崭新的2026年红色百元大钞买烟，被老板当成拿“冥币”骗人的疯子赶走。",
+            "conditions": [],
+            "customFields": {},
+            "triggerConditions": [
+              "location:f2a22128-fa57-4f56-bd6a-eac724fada7b",
+              "character:3111e41c-960d-4c7d-bdb8-016e43a4bb45"
+            ],
+            "boundChecks": [
+              "216aa6c5-1c04-4b3f-8e00-82fd0f177d58"
+            ],
+            "potentialActions": {
+              "A这“剧本杀”有点意思，仔细观察逻辑bug": "检定成功→节点3；失败→节点2B",
+              "B掏出新版百元大钞买包华子压压惊": "跳转：节点2B"
+            }
+          }
+        },
+        {
+          "id": "90a05b37-55a2-4ff3-9d56-9a35ff07bb97",
+          "type": "checkpointNode",
+          "label": "节点3｜这大叔好像我爸年轻版",
+          "position": {
+            "x": 260,
+            "y": 540
+          },
+          "data": {
+            "name": "新检查点",
+            "description": "玩家即将做出是否干预历史的核心选择。此时的干预将直接推高“因果值”。",
+            "aliases": [],
+            "gender": "",
+            "appearance": "",
+            "personality": "",
+            "attributes": {},
+            "locationType": "",
+            "terrain": "",
+            "sceneDescription": "逃进巷口，看到一个长得像“开了美颜的老林”（22岁的小林）正因损耗率过高被供货商讨债。身为数据分析师的你一眼看出了账单和车辙印的破绽。",
+            "conditions": [],
+            "customFields": {},
+            "triggerConditions": [
+              "character:aa87c12d-b562-4cd5-9c65-255867e3c83b",
+              "location:d93dc86e-1461-417d-85fa-9bb56b25a52c"
+            ],
+            "associatedObjects": [
+              {
+                "id": "item:4206f798-2ca5-48f5-a028-464c3e7256a9",
+                "relationDescription": "旁观小林陷入破产危机"
+              }
+            ],
+            "boundChecks": [
+              "ebcea154-a93b-4cf4-9b55-f26d86f43656"
+            ],
+            "potentialActions": {
+              "A犯了职业病，当场帮他算账揪出内鬼": "【因果值+1】，跳转：节点4",
+              "B冷眼旁观": "检定因果<2→节点3B；否则强制开口→节点4"
+            }
+          }
+        },
+        {
+          "id": "21fb196a-63af-4ac3-bcda-d32cb5dafaa9",
+          "type": "checkpointNode",
+          "label": "节点2B｜物理惩罚",
+          "position": {
+            "x": 580,
+            "y": 400
+          },
+          "data": {
+            "name": "新检查点",
+            "description": "玩家因为傲慢受到了系统的物理惩罚。【隐藏属性变化：洞察值+1】",
+            "aliases": [],
+            "gender": "",
+            "appearance": "",
+            "personality": "",
+            "attributes": {},
+            "locationType": "",
+            "terrain": "",
+            "sceneDescription": "老板怒发冲冠，一蒲扇拍在桌上大吼你拿“冥币”骗人！你被扫地出门，深刻体会到了版本不兼容的物理毒打。",
+            "conditions": [],
+            "customFields": {},
+            "triggerConditions": [
+              "character:40ea342d-8575-4759-8e05-a12b1daa2449",
+              "location:f2a22128-fa57-4f56-bd6a-eac724fada7b",
+              "item:ddc6af0f-3345-4d4c-9602-09c83fd7a501"
+            ],
+            "potentialActions": {
+              "落荒而逃，跑进老街巷子深处躲避": "跳转：节点3"
+            }
+          }
+        },
+        {
+          "id": "8a3068b1-a6d5-48ae-bf30-5ec991848616",
+          "type": "checkpointNode",
+          "label": "节点3B｜走不掉的死胡同",
+          "position": {
+            "x": 580,
+            "y": 640
+          },
+          "data": {
+            "name": "新检查点",
+            "description": "剧情锁，主线任务不可避。",
+            "aliases": [],
+            "gender": "",
+            "appearance": "",
+            "personality": "",
+            "attributes": {},
+            "locationType": "",
+            "terrain": "",
+            "sceneDescription": "你刚想转身离开，一辆破夏利飞驰溅了你一身泥，你被迫退回屋檐。小林被逼得要跳河，死死抱住你的大腿求你帮看账本。",
+            "conditions": [],
+            "customFields": {},
+            "triggerConditions": [
+              "character:aa87c12d-b562-4cd5-9c65-255867e3c83b",
+              "character:3111e41c-960d-4c7d-bdb8-016e43a4bb45"
+            ],
+            "potentialActions": {
+              "叹口气，这果然是躲不掉的任务": "返回：节点3重选A"
+            }
+          }
+        },
+        {
+          "id": "ab801290-7a8a-4e5c-b660-9aa7ff3ad043",
+          "type": "checkpointNode",
+          "label": "节点4｜降维打击与黑暗料理",
+          "position": {
+            "x": 280,
+            "y": 800
+          },
+          "data": {
+            "name": "新检查点",
+            "description": "将亲手创造出折磨自己多年的“生化武器粽子”，种下未来果实。",
+            "aliases": [],
+            "gender": "",
+            "appearance": "",
+            "personality": "",
+            "attributes": {},
+            "locationType": "",
+            "terrain": "",
+            "sceneDescription": "小林惊为天人留你管账。有了资金喘息，你决定对作坊进行改造，以应对端午节的订单。",
+            "conditions": [],
+            "customFields": {},
+            "triggerConditions": [
+              "character:3111e41c-960d-4c7d-bdb8-016e43a4bb45",
+              "character:aa87c12d-b562-4cd5-9c65-255867e3c83b",
+              "location:d93dc86e-1461-417d-85fa-9bb56b25a52c"
+            ],
+            "associatedObjects": [
+              {
+                "id": "item:4d5b1bf6-e509-4d58-9d8f-165e4dc5fb57",
+                "relationDescription": "帮小林解决危机后开始经营"
+              }
+            ],
+            "potentialActions": {
+              "A引入SOP，科学配比稳扎稳打": "【洞察值+1】，跳转：节点5",
+              "B搞盲盒营销，随手乱炖折耳根腊肉怪粽！": "【因果值+2】，跳转：节点5"
+            }
+          }
+        },
+        {
+          "id": "90032ae0-641b-4b5c-abe9-6a4f62a10e9e",
+          "type": "checkpointNode",
+          "label": "节点5｜第一个鼓点",
+          "position": {
+            "x": 280,
+            "y": 940
+          },
+          "data": {
+            "name": "新检查点",
+            "description": "影响“热情值”的核心分支。决定主角是找到自我还是全程旁观。",
+            "aliases": [],
+            "gender": "",
+            "appearance": "",
+            "personality": "",
+            "attributes": {},
+            "locationType": "",
+            "terrain": "",
+            "sceneDescription": "晚上小林拉你去龙舟队。队伍散漫缺鼓手，巨大的牛皮大鼓似乎在召唤你敲击键盘的手。",
+            "conditions": [],
+            "customFields": {},
+            "associatedObjects": [
+              {
+                "id": "item:45795f9b-6a35-4029-91ec-dc3e66523724",
+                "relationDescription": "参加龙舟训练，面对散漫的队伍需要节奏。"
+              }
+            ],
+            "triggerConditions": [
+              "character:3111e41c-960d-4c7d-bdb8-016e43a4bb45",
+              "character:aa87c12d-b562-4cd5-9c65-255867e3c83b",
+              "location:a1e0d34e-0327-45a9-a2fc-2a22628ac5fe"
+            ],
+            "potentialActions": {
+              "A抓起鼓槌，凭本能砸出节奏！": "检定成功→节点6；失败→节点5B",
+              "B没兴趣，冷眼旁观": "【热情值-1】，跳转：节点7"
+            },
+            "boundChecks": [
+              "cf7737e2-d383-4aa6-b54e-542812844e6c"
+            ]
+          }
+        },
+        {
+          "id": "67ccfe84-6eca-46d1-a2ac-44d6c8d5ff59",
+          "type": "checkpointNode",
+          "label": "节点5B｜错失节奏",
+          "position": {
+            "x": 660,
+            "y": 1080
+          },
+          "data": {
+            "name": "新检查点",
+            "description": "勉强参与，热情有限。【隐藏属性变化：热情值+1】",
+            "aliases": [],
+            "gender": "",
+            "appearance": "",
+            "personality": "",
+            "attributes": {},
+            "locationType": "",
+            "terrain": "",
+            "sceneDescription": "你手一滑差点把鼓槌扔河里。虽然磕磕巴巴凑齐了队伍，但你觉得这比改bug还累。",
+            "conditions": [],
+            "customFields": {},
+            "triggerConditions": [
+              "character:3111e41c-960d-4c7d-bdb8-016e43a4bb45",
+              "item:45795f9b-6a35-4029-91ec-dc3e66523724",
+              "location:a1e0d34e-0327-45a9-a2fc-2a22628ac5fe"
+            ],
+            "associatedObjects": [
+              {
+                "id": "item:45795f9b-6a35-4029-91ec-dc3e66523724",
+                "relationDescription": "手法生疏导致发挥不佳"
+              }
+            ],
+            "potentialActions": {
+              "慢慢练吧，总比干坐着强。": "跳转：节点7"
+            }
+          }
+        },
+        {
+          "id": "3ee75037-b709-495d-824a-607cc0f15361",
+          "type": "checkpointNode",
+          "label": "节点6｜热爱觉醒",
+          "position": {
+            "x": 280,
+            "y": 1080
+          },
+          "data": {
+            "name": "新检查点",
+            "description": "玩家成功觉醒天赋。【隐藏属性变化：热情值+2】",
+            "aliases": [],
+            "gender": "",
+            "appearance": "",
+            "personality": "",
+            "attributes": {},
+            "locationType": "",
+            "terrain": "",
+            "sceneDescription": "鼓声贯穿脊背，那不是冰冷代码而是滚烫生命力！散漫的桨手被你统御，你第一次觉得活着这么爽。",
+            "conditions": [],
+            "customFields": {},
+            "triggerConditions": [
+              "character:3111e41c-960d-4c7d-bdb8-016e43a4bb45",
+              "location:a1e0d34e-0327-45a9-a2fc-2a22628ac5fe",
+              "item:45795f9b-6a35-4029-91ec-dc3e66523724"
+            ],
+            "associatedObjects": [
+              {
+                "id": "character:5d4cffb2-60cd-4f9b-899f-964391e30608",
+                "relationDescription": "完美的鼓点让队伍咬合"
+              }
+            ],
+            "potentialActions": {
+              "龙舟，启动！拿下决赛！": "跳转：节点7"
+            }
+          }
+        },
+        {
+          "id": "d4987a2b-0549-4978-ad36-dff2c37ecce6",
+          "type": "checkpointNode",
+          "label": "节点11｜遗憾落败",
+          "position": {
+            "x": 600,
+            "y": 1660
+          },
+          "data": {
+            "name": "新检查点",
+            "description": "未能完全释放自我，错过高燃时刻。",
+            "aliases": [],
+            "gender": "",
+            "appearance": "",
+            "personality": "",
+            "attributes": {},
+            "locationType": "",
+            "terrain": "",
+            "sceneDescription": "端午决赛。你满脑子时空悖论心不在焉，遗憾获得第二。但小林依然兴奋地说你是幸运神。",
+            "conditions": [],
+            "customFields": {},
+            "triggerConditions": [
+              "character:3111e41c-960d-4c7d-bdb8-016e43a4bb45",
+              "location:a1e0d34e-0327-45a9-a2fc-2a22628ac5fe"
+            ],
+            "potentialActions": {
+              "扯出勉强的微笑去庆功宴": "跳转：节点12"
+            }
+          }
+        },
+        {
+          "id": "a1aad0b3-1866-43c8-b1b1-bc2990c70212",
+          "type": "checkpointNode",
+          "label": "节点7｜这些台词我听过",
+          "position": {
+            "x": 300,
+            "y": 1240
+          },
+          "data": {
+            "name": "新检查点",
+            "description": "真相的切入点。",
+            "aliases": [],
+            "gender": "",
+            "appearance": "",
+            "personality": "",
+            "attributes": {},
+            "locationType": "",
+            "terrain": "",
+            "sceneDescription": "你无意中听到小林正在念叨“大火三滚，小火闷神…”和“封闭水密舱”。你脊背一凉，这正是未来老林满嘴的古怪口头禅！",
+            "conditions": [],
+            "customFields": {},
+            "triggerConditions": [
+              "character:aa87c12d-b562-4cd5-9c65-255867e3c83b",
+              "character:3111e41c-960d-4c7d-bdb8-016e43a4bb45"
+            ],
+            "associatedObjects": [
+              {
+                "id": "character:aa87c12d-b562-4cd5-9c65-255867e3c83b",
+                "relationDescription": "日常经营中小林模仿了你随口瞎编的词汇。"
+              }
+            ],
+            "potentialActions": {
+              "A翻找枕头底下的旧物找铁证！": "检定成功→节点8；失败→节点7B",
+              "B让子弹飞一会儿": "节点7B"
+            },
+            "boundChecks": [
+              "75e5e7bc-fa85-4483-a3e9-96eb60174252"
+            ]
+          }
+        },
+        {
+          "id": "f8a40290-9a61-4a96-b56b-f18f8a284e7c",
+          "type": "checkpointNode",
+          "label": "节点10｜决战江面",
+          "position": {
+            "x": 200,
+            "y": 1660
+          },
+          "data": {
+            "name": "新检查点",
+            "description": "高燃时刻达成。【隐藏属性变化：热情值+1】",
+            "aliases": [],
+            "gender": "",
+            "appearance": "",
+            "personality": "",
+            "attributes": {},
+            "locationType": "",
+            "terrain": "",
+            "sceneDescription": "端午决赛。既然因果注定，你决定放手一搏，给老爹一个最酣畅淋漓的青春。你化身疯狂鼓手带领队伍绝地反超拿下冠军！",
+            "conditions": [],
+            "customFields": {},
+            "triggerConditions": [
+              "character:3111e41c-960d-4c7d-bdb8-016e43a4bb45",
+              "location:a1e0d34e-0327-45a9-a2fc-2a22628ac5fe",
+              "item:45795f9b-6a35-4029-91ec-dc3e66523724"
+            ],
+            "associatedObjects": [
+              {
+                "id": "item:45795f9b-6a35-4029-91ec-dc3e66523724",
+                "relationDescription": "将所有感情砸入鼓点赢得比赛。"
+              }
+            ],
+            "potentialActions": {
+              "在漫天水花中大笑，迎接告别": "跳转：节点12"
+            }
+          }
+        },
+        {
+          "id": "c47a8eff-57f7-40bb-9314-895bbdb363d6",
+          "type": "checkpointNode",
+          "label": "节点8｜恐怖拼图",
+          "position": {
+            "x": 360,
+            "y": 1400
+          },
+          "data": {
+            "name": "新检查点",
+            "description": "获得核心真相。【隐藏属性变化：洞察值+2】",
+            "aliases": [],
+            "gender": "",
+            "appearance": "",
+            "personality": "",
+            "attributes": {},
+            "locationType": "",
+            "terrain": "",
+            "sceneDescription": "你在旧账单上发现了小林画的丑笑脸。那个弧度，和三十年后老林贴在冰箱上的便签条一模一样",
+            "conditions": [],
+            "customFields": {},
+            "triggerConditions": [
+              "character:3111e41c-960d-4c7d-bdb8-016e43a4bb45",
+              "location:d93dc86e-1461-417d-85fa-9bb56b25a52c",
+              "item:e7c8e63d-fef9-4013-9018-38cada5474c1"
+            ],
+            "associatedObjects": [
+              {
+                "id": "item:e7c8e63d-fef9-4013-9018-38cada5474c1",
+                "relationDescription": "比对笔迹发现跨越时空的连接。"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e0148d7c-cfe2-4a00-abc3-afac3934ccd7",
+          "type": "checkpointNode",
+          "label": "节点7B｜寻物未果",
+          "position": {
+            "x": 620,
+            "y": 1240
+          },
+          "data": {
+            "name": "新检查点",
+            "description": "强迫玩家必须寻找线索以推进剧情。",
+            "aliases": [],
+            "gender": "",
+            "appearance": "",
+            "personality": "",
+            "attributes": {},
+            "locationType": "",
+            "terrain": "",
+            "sceneDescription": "翻箱倒柜一无所获，你必须找到那个决定性证据才能印证猜想。",
+            "conditions": [],
+            "customFields": {},
+            "triggerConditions": [
+              "character:3111e41c-960d-4c7d-bdb8-016e43a4bb45",
+              "location:d93dc86e-1461-417d-85fa-9bb56b25a52c"
+            ],
+            "potentialActions": {
+              "等小林出门，再去账房翻一次": "返回：节点7重选A"
+            }
+          }
+        },
+        {
+          "id": "fa6b552e-0372-4878-b31a-b6732f86a007",
+          "type": "checkpointNode",
+          "label": "节点9｜谁才是Bug？",
+          "position": {
+            "x": 380,
+            "y": 1520
+          },
+          "data": {
+            "name": "新检查点",
+            "description": "根据之前的“热情值”累积，决定高潮戏份是热血还是平淡。",
+            "aliases": [],
+            "gender": "",
+            "appearance": "",
+            "personality": "",
+            "attributes": {},
+            "locationType": "",
+            "terrain": "",
+            "sceneDescription": "你彻底顿悟：老爹未来的古怪和神经质，全都是被你亲手“调教”出来的！你才是写下bug的原始程序员。",
+            "conditions": [],
+            "customFields": {},
+            "potentialActions": {
+              "去河边看龙舟冷静一下": "检定热情≥2→节点10；否则→节点11"
+            }
+          }
+        },
+        {
+          "id": "a5453a27-f9c8-4b0c-82d4-973d0e373575",
+          "type": "checkpointNode",
+          "label": "节点13｜结局A：【定制款老爹】（真结局）",
+          "position": {
+            "x": -80,
+            "y": 2020
+          },
+          "data": {
+            "name": "新检查点",
+            "description": "达成真结局的条件是：干预了因果，且找到了热爱。",
+            "aliases": [],
+            "gender": "",
+            "appearance": "",
+            "personality": "",
+            "attributes": {},
+            "locationType": "",
+            "terrain": "",
+            "sceneDescription": "钟声响起，回到2026年。你没有嫌弃老林，帮他掖好线头。你推门走进阳光，凭空做出击鼓动作——你完美交付了闭环，也找回了鲜活的生命。",
+            "conditions": [],
+            "customFields": {}
+          }
+        },
+        {
+          "id": "ec56945f-25f1-43d1-83ef-d92a7582831e",
+          "type": "checkpointNode",
+          "label": "节点14｜结局B：【系统崩溃】（迷失结局）",
+          "position": {
+            "x": 300,
+            "y": 2020
+          },
+          "data": {
+            "name": "新检查点",
+            "description": "强行违背时间闭环规则的惩罚。",
+            "aliases": [],
+            "gender": "",
+            "appearance": "",
+            "personality": "",
+            "attributes": {},
+            "locationType": "",
+            "terrain": "",
+            "sceneDescription": "你拒绝长命缕试图修改底层循环，导致“果”否定了“因”。你的视线陷入黑暗，存在被彻底抹除，成为游荡在1996年的无效代码。",
+            "conditions": [],
+            "customFields": {},
+            "potentialActions": {}
+          }
+        },
+        {
+          "id": "57740fa4-ebee-422e-a9a4-dcb5a9e70cba",
+          "type": "checkpointNode",
+          "label": "节点12｜长命缕的死结",
+          "position": {
+            "x": 380,
+            "y": 1860
+          },
+          "data": {
+            "name": "新检查点",
+            "description": "最终结局的分歧点。判定系统将综合“因果值”和“热情值”计算最终结局。",
+            "aliases": [],
+            "gender": "",
+            "appearance": "",
+            "personality": "",
+            "attributes": {},
+            "locationType": "",
+            "terrain": "",
+            "sceneDescription": "庆功宴后，小林拿着长命缕非要系在你左腕。这是穿越的锚点，也是缔结闭环的最后一步。",
+            "conditions": [],
+            "customFields": {},
+            "triggerConditions": [
+              "character:3111e41c-960d-4c7d-bdb8-016e43a4bb45",
+              "character:aa87c12d-b562-4cd5-9c65-255867e3c83b",
+              "location:d93dc86e-1461-417d-85fa-9bb56b25a52c",
+              "item:dac15eb8-9a24-4b9b-9373-3c021ea2d7a9"
+            ],
+            "associatedObjects": [
+              {
+                "id": "character:aa87c12d-b562-4cd5-9c65-255867e3c83b",
+                "relationDescription": "小林试图完成三十年承诺的起点。"
+              }
+            ],
+            "potentialActions": {
+              "A配合打死结，嘱咐他留空位、煮怪粽。": "（检定：满足双高→节点13；仅热情低→节点15",
+              "B一把推开他！我要强行打破闭环！": "【因果值-2】跳转：节点14"
+            }
+          }
+        },
+        {
+          "id": "693763c5-6497-468c-9aab-e62293302571",
+          "type": "checkpointNode",
+          "label": "节点15｜结局C：【旁观者清】（平庸结局）",
+          "position": {
+            "x": 680,
+            "y": 2020
+          },
+          "data": {
+            "name": "新检查点",
+            "description": "只是走完了流程，但主角内心并未获得成长。",
+            "aliases": [],
+            "gender": "",
+            "appearance": "",
+            "personality": "",
+            "attributes": {},
+            "locationType": "",
+            "terrain": "",
+            "sceneDescription": "钟声响起回到现代。老林依然是那个让你头疼的老头，你重新坐回电脑前敲击代码。那段大汗淋漓的记忆仿佛只是一场梦，你没有改变历史，历史也没有改变你。",
+            "conditions": [],
+            "customFields": {}
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "0abb00fc-a0a4-497f-8452-c431be6ffe7e",
+          "source": "9d3867a5-c4ec-4791-ac30-512cf9792d37",
+          "target": "ffc0db9c-d487-487c-9164-d1b92a40e092",
+          "label": "转化",
+          "data": {
+            "description": "",
+            "relationType": "",
+            "trigger": "",
+            "conditionLogic": ""
+          }
+        },
+        {
+          "id": "b526a4ea-b25c-445f-b636-5e73db30a298",
+          "source": "ffc0db9c-d487-487c-9164-d1b92a40e092",
+          "target": "90a05b37-55a2-4ff3-9d56-9a35ff07bb97",
+          "label": "转化",
+          "data": {
+            "description": "",
+            "relationType": "",
+            "trigger": "",
+            "conditionLogic": ""
+          }
+        },
+        {
+          "id": "0bf2691c-cdd2-4430-b151-eb034e0f891e",
+          "source": "ffc0db9c-d487-487c-9164-d1b92a40e092",
+          "target": "21fb196a-63af-4ac3-bcda-d32cb5dafaa9",
+          "label": "转化",
+          "data": {
+            "description": "",
+            "relationType": "",
+            "trigger": "",
+            "conditionLogic": ""
+          }
+        },
+        {
+          "id": "446d273f-0bea-433a-b47b-adbe993a2100",
+          "source": "21fb196a-63af-4ac3-bcda-d32cb5dafaa9",
+          "target": "90a05b37-55a2-4ff3-9d56-9a35ff07bb97",
+          "label": "转化",
+          "data": {
+            "description": "",
+            "relationType": "",
+            "trigger": "",
+            "conditionLogic": ""
+          }
+        },
+        {
+          "id": "6220887f-8ae2-428d-8c98-a68ba8a7569c",
+          "source": "90032ae0-641b-4b5c-abe9-6a4f62a10e9e",
+          "target": "67ccfe84-6eca-46d1-a2ac-44d6c8d5ff59",
+          "label": "转化",
+          "data": {
+            "description": "",
+            "relationType": "",
+            "trigger": "",
+            "conditionLogic": ""
+          }
+        },
+        {
+          "id": "a69f6423-f72c-49ea-a1a6-668f50df7d16",
+          "source": "90032ae0-641b-4b5c-abe9-6a4f62a10e9e",
+          "target": "3ee75037-b709-495d-824a-607cc0f15361",
+          "label": "转化",
+          "data": {
+            "description": "",
+            "relationType": "",
+            "trigger": "",
+            "conditionLogic": ""
+          }
+        },
+        {
+          "id": "4f62d368-576a-403f-a721-bbe23eea89a2",
+          "source": "3ee75037-b709-495d-824a-607cc0f15361",
+          "target": "a1aad0b3-1866-43c8-b1b1-bc2990c70212",
+          "label": "转化",
+          "data": {
+            "description": "",
+            "relationType": "",
+            "trigger": "",
+            "conditionLogic": ""
+          }
+        },
+        {
+          "id": "205e1eeb-6eed-4bdd-af44-d3470a6045e6",
+          "source": "67ccfe84-6eca-46d1-a2ac-44d6c8d5ff59",
+          "target": "a1aad0b3-1866-43c8-b1b1-bc2990c70212",
+          "label": "转化",
+          "data": {
+            "description": "",
+            "relationType": "",
+            "trigger": "",
+            "conditionLogic": ""
+          }
+        },
+        {
+          "id": "db13d596-6265-49da-a8ee-b1aabf457bc1",
+          "source": "8a3068b1-a6d5-48ae-bf30-5ec991848616",
+          "target": "ab801290-7a8a-4e5c-b660-9aa7ff3ad043",
+          "label": "转化",
+          "data": {
+            "description": "",
+            "relationType": "",
+            "trigger": "",
+            "conditionLogic": ""
+          }
+        },
+        {
+          "id": "92391c20-f58a-42b0-a98a-25661d794400",
+          "source": "90a05b37-55a2-4ff3-9d56-9a35ff07bb97",
+          "target": "ab801290-7a8a-4e5c-b660-9aa7ff3ad043",
+          "label": "转化",
+          "data": {
+            "description": "",
+            "relationType": "",
+            "trigger": "",
+            "conditionLogic": ""
+          }
+        },
+        {
+          "id": "90f24b9b-de2c-479e-bf47-73e2856aad2d",
+          "source": "90a05b37-55a2-4ff3-9d56-9a35ff07bb97",
+          "target": "8a3068b1-a6d5-48ae-bf30-5ec991848616",
+          "label": "转化",
+          "data": {
+            "description": "",
+            "relationType": "",
+            "trigger": "",
+            "conditionLogic": ""
+          }
+        },
+        {
+          "id": "0c04c4d8-6e06-42dd-a98d-a6b4ea319869",
+          "source": "ab801290-7a8a-4e5c-b660-9aa7ff3ad043",
+          "target": "90032ae0-641b-4b5c-abe9-6a4f62a10e9e",
+          "label": "转化",
+          "data": {
+            "description": "",
+            "relationType": "",
+            "trigger": "",
+            "conditionLogic": ""
+          }
+        },
+        {
+          "id": "b10d6990-bda3-4c9c-b1ac-70fee2f318d0",
+          "source": "a1aad0b3-1866-43c8-b1b1-bc2990c70212",
+          "target": "e0148d7c-cfe2-4a00-abc3-afac3934ccd7",
+          "label": "转化",
+          "data": {
+            "description": "",
+            "relationType": "",
+            "trigger": "",
+            "conditionLogic": ""
+          }
+        },
+        {
+          "id": "118b0964-7768-4939-8a25-76e59a6e3d44",
+          "source": "e0148d7c-cfe2-4a00-abc3-afac3934ccd7",
+          "target": "a1aad0b3-1866-43c8-b1b1-bc2990c70212",
+          "label": "转化",
+          "data": {
+            "description": "",
+            "relationType": "",
+            "trigger": "",
+            "conditionLogic": ""
+          }
+        },
+        {
+          "id": "8bd2cbab-bf6b-4c69-b2b4-659a596224a5",
+          "source": "a1aad0b3-1866-43c8-b1b1-bc2990c70212",
+          "target": "c47a8eff-57f7-40bb-9314-895bbdb363d6",
+          "label": "转化",
+          "data": {
+            "description": "",
+            "relationType": "",
+            "trigger": "",
+            "conditionLogic": ""
+          }
+        },
+        {
+          "id": "52093bda-79a4-48de-9e11-0ca435b3feed",
+          "source": "c47a8eff-57f7-40bb-9314-895bbdb363d6",
+          "target": "fa6b552e-0372-4878-b31a-b6732f86a007",
+          "label": "转化",
+          "data": {
+            "description": "",
+            "relationType": "",
+            "trigger": "",
+            "conditionLogic": ""
+          }
+        },
+        {
+          "id": "d9ffb8c2-7887-4d6d-a00d-36c4d5113c24",
+          "source": "fa6b552e-0372-4878-b31a-b6732f86a007",
+          "target": "f8a40290-9a61-4a96-b56b-f18f8a284e7c",
+          "label": "转化",
+          "data": {
+            "description": "",
+            "relationType": "",
+            "trigger": "",
+            "conditionLogic": ""
+          }
+        },
+        {
+          "id": "b4c60f90-9839-444d-93a0-9629d4f21703",
+          "source": "fa6b552e-0372-4878-b31a-b6732f86a007",
+          "target": "d4987a2b-0549-4978-ad36-dff2c37ecce6",
+          "label": "转化",
+          "data": {
+            "description": "",
+            "relationType": "",
+            "trigger": "",
+            "conditionLogic": ""
+          }
+        },
+        {
+          "id": "163210f4-f935-47e0-854c-1c10589419b0",
+          "source": "d4987a2b-0549-4978-ad36-dff2c37ecce6",
+          "target": "57740fa4-ebee-422e-a9a4-dcb5a9e70cba",
+          "label": "转化",
+          "data": {
+            "description": "",
+            "relationType": "",
+            "trigger": "",
+            "conditionLogic": ""
+          }
+        },
+        {
+          "id": "cb1ed9de-604d-4cd5-9c06-2a56d22ab126",
+          "source": "f8a40290-9a61-4a96-b56b-f18f8a284e7c",
+          "target": "57740fa4-ebee-422e-a9a4-dcb5a9e70cba",
+          "label": "转化",
+          "data": {
+            "description": "",
+            "relationType": "",
+            "trigger": "",
+            "conditionLogic": ""
+          }
+        },
+        {
+          "id": "89f81879-79f1-4f3f-8f64-797e5c70d2af",
+          "source": "57740fa4-ebee-422e-a9a4-dcb5a9e70cba",
+          "target": "a5453a27-f9c8-4b0c-82d4-973d0e373575",
+          "label": "转化",
+          "data": {
+            "description": "",
+            "relationType": "",
+            "trigger": "",
+            "conditionLogic": ""
+          }
+        },
+        {
+          "id": "684eb750-fae3-4f2c-a432-499b6c12d5b8",
+          "source": "57740fa4-ebee-422e-a9a4-dcb5a9e70cba",
+          "target": "ec56945f-25f1-43d1-83ef-d92a7582831e",
+          "label": "转化",
+          "data": {
+            "description": "",
+            "relationType": "",
+            "trigger": "",
+            "conditionLogic": ""
+          }
+        },
+        {
+          "id": "4df588e9-8626-4c11-8fd0-ca719880ac92",
+          "source": "57740fa4-ebee-422e-a9a4-dcb5a9e70cba",
+          "target": "693763c5-6497-468c-9aab-e62293302571",
+          "label": "转化",
+          "data": {
+            "description": "",
+            "relationType": "",
+            "trigger": "",
+            "conditionLogic": ""
+          }
+        }
+      ]
+    }
+  },
+  "mechanics": {
+    "checks": [
+      {
+        "id": "bb888138-96f9-4a43-a804-01e5e24cdb87",
+        "name": " 长命缕 佩戴=1 未佩戴=0",
+        "triggerCondition": "林墨试图清理餐桌上的空碗筷，老林强行给林墨系上长命缕打死结，触发时空跃迁机制",
+        "difficulty": 1,
+        "checkTarget": " 长命缕",
+        "description": "randint(0, 检定对象)>=难度 则成功",
+        "successEffect": "穿越",
+        "failureEffect": ""
+      },
+      {
+        "id": "216aa6c5-1c04-4b3f-8e00-82fd0f177d58",
+        "name": "与报刊亭老板对话确认时间错位",
+        "triggerCondition": "与报刊亭老板对话确认时间错位",
+        "difficulty": 3,
+        "checkTarget": "洞察值",
+        "description": "randint(0, 检定对象)>=难度 则成功",
+        "successEffect": "节点3",
+        "failureEffect": "节点2B"
+      },
+      {
+        "id": "ebcea154-a93b-4cf4-9b55-f26d86f43656",
+        "name": "揪出内鬼",
+        "triggerCondition": "来到小林粽子铺巷口，旁观小林陷入破产危机。",
+        "difficulty": 2,
+        "checkTarget": "因果值",
+        "description": "randint(0, 检定对象)<=难度 则成功",
+        "successEffect": "犯了职业病，当场帮他算账揪出内鬼。（【因果值+1】，跳转：节点4）",
+        "failureEffect": "冷眼旁观。（检定因果<2→节点3B）"
+      },
+      {
+        "id": "cf7737e2-d383-4aa6-b54e-542812844e6c",
+        "name": "抓起鼓槌，凭本能砸出节奏！",
+        "triggerCondition": "抓起鼓槌，凭本能砸出节奏！",
+        "difficulty": 3,
+        "checkTarget": "洞察值",
+        "description": "randint(0, 检定对象)>=难度 则成功",
+        "successEffect": "检定成功→节点6",
+        "failureEffect": "失败→节点5B"
+      },
+      {
+        "id": "75e5e7bc-fa85-4483-a3e9-96eb60174252",
+        "name": "翻找枕头底下的旧物找铁证！",
+        "triggerCondition": "翻找枕头底下的旧物找铁证",
+        "difficulty": 4,
+        "checkTarget": "洞察值",
+        "description": "randint(0, 检定对象)>=难度 则成功",
+        "successEffect": "节点8",
+        "failureEffect": "节点7B"
+      },
+      {
+        "id": "85925c0a-18b1-4207-9635-3be3a3272108",
+        "name": "去河边看龙舟冷静一下",
+        "triggerCondition": "去河边看龙舟冷静一下",
+        "difficulty": 2,
+        "checkTarget": "热情值",
+        "description": "randint(0, 检定对象)>=难度 则成功",
+        "successEffect": "节点10",
+        "failureEffect": "节点11"
+      },
+      {
+        "id": "c4171d3e-d42e-43a9-ba3e-763c179d7704",
+        "name": "配合打死结，嘱咐他留空位、煮怪粽。",
+        "triggerCondition": "配合打死结，嘱咐他留空位、煮怪粽。",
+        "difficulty": 2,
+        "checkTarget": "热情值",
+        "description": " 检定对象>=难度 则成功",
+        "successEffect": "→节点13",
+        "failureEffect": "→节点15"
+      }
+    ],
+    "votes": [
+      {
+        "id": "f03229e0-445a-499a-b640-8018444d2a08",
+        "name": "新投票",
+        "options": [],
+        "participationCondition": ""
+      }
+    ]
+  },
+  "aiConfig": null,
+  "updatedAt": "2026-06-13T16:06:09.376732"
+}
