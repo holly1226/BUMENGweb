@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: bumeng-tprg
+    runtime: docker
+    repo: https://github.com/holly1226/BUMENGweb
+    plan: free
+    region: singapore
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PORT
+        value: "8000"
+      - key: DEEPSEEK_API_KEY
+        sync: false
+      - key: QWEN_SECRET
+        sync: false
+      - key: GPT_SECRET
+        sync: false
+      - key: AGENT_HOST
+        value: "0.0.0.0"
+      - key: AGENT_PORT
+        value: "8000"
+      - key: LOG_LEVEL
+        value: "INFO"
+      - key: ENVIRONMENT
+        value: "production"
